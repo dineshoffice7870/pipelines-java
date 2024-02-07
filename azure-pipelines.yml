@@ -20,7 +20,7 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
--task: 
+
 - task: CmdLine@2
   inputs:
     script: 'echo " Dinesh is dumb:" '
